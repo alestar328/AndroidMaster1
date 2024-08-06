@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstapp.FrameLayoutActivity">
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#E91E63"
+        android:layout_gravity="top|start"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#710606"
+        android:layout_gravity="top|center"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#921919"
+        android:layout_gravity="top|end"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#673AB7"
+        android:layout_gravity="center|start"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#3F51B5"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#2196F3"
+        android:layout_gravity="center|end"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#1D520A"
+        android:layout_gravity="bottom|start"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#4CAF50"
+        android:layout_gravity="bottom|center"/>
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="#8BC34A"
+        android:layout_gravity="bottom|end"/>
+
+
+</FrameLayout>
